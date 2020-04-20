@@ -43,6 +43,10 @@ static const struct dslogic_profile supported_device[] = {
 	{ 0x2a0e, 0x0021, "DreamSourceLab", "DSLogic Basic", NULL,
 		"dreamsourcelab-dslogic-basic-fx2.fw",
 		0, "DreamSourceLab", "DSLogic", 256 * 1024},
+	/* DreamSourceLab DSLogic U2Basic */
+	{ 0x2a0e, 0x0029, "DreamSourceLab", "DSLogic Basic", NULL,
+		"dreamsourcelab-dslogic-basic-fx2.fw",
+		0, "DreamSourceLab", "DSLogic", 256 * 1024},
 
 	ALL_ZERO
 };
